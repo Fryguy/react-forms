@@ -1,3 +1,11 @@
+import Grid from '@material-ui/core/Grid'
+import ListOfContents from '../../src/helpers/list-of-contents';
+
+<Grid container item>
+<Grid item xs={12} md={10}>
+
+## ManageIQ components
+
 ### Duallist select
 
 **Props**
@@ -86,3 +94,8 @@ Just a `hr` component for using in forms.
     name: 'name', // every component has to have an unique name!
 }
 ```
+</Grid>
+<Grid item xs={false} md={2}>
+  <ListOfContents file="others/miq-components" />
+</Grid>
+</Grid>
